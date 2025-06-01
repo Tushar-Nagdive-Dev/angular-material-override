@@ -1,3 +1,5 @@
 coreux-workspace/.vscode
 coreux-workspace/node_modules
 coreux-workspace/package-lock.json
+
+coreux-workspace/projects/coreux/node_modules
