@@ -3,3 +3,7 @@ coreux-workspace/node_modules
 coreux-workspace/package-lock.json
 
 coreux-workspace/projects/coreux/node_modules
+coreux-workspace/dist
+
+package-lock.json
+coreux-workspace/projects/coreux/package-lock.json

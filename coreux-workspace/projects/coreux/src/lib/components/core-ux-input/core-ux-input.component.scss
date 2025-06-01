@@ -1,0 +1,15 @@
+.full-width {
+  width: 100%;
+}
+
+:host-context(.theme-zen) .core-ux-theme-override {
+  @include zen-theme;
+}
+
+:host-context(.theme-glass) .core-ux-theme-override {
+  @include glass-theme;
+}
+
+:host-context(.theme-neu) .core-ux-theme-override {
+  @include neu-theme;
+}

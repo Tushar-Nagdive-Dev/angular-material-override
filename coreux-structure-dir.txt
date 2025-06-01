@@ -1,0 +1,46 @@
+.
+├── coreux-structure-dir.txt
+├── coreux-workspace
+│   ├── angular.json
+│   ├── dist
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── projects
+│   │   ├── coreux
+│   │   │   ├── ng-package.json
+│   │   │   ├── package-lock.json
+│   │   │   ├── package.json
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── lib
+│   │   │   │   │   ├── components
+│   │   │   │   │   │   └── core-ux-input
+│   │   │   │   │   │       ├── core-ux-input.component.html
+│   │   │   │   │   │       ├── core-ux-input.component.scss
+│   │   │   │   │   │       └── core-ux-input.component.ts
+│   │   │   │   │   ├── coreux.component.ts
+│   │   │   │   │   └── coreux.service.ts
+│   │   │   │   └── public-api.ts
+│   │   │   ├── tsconfig.lib.json
+│   │   │   ├── tsconfig.lib.prod.json
+│   │   │   └── tsconfig.spec.json
+│   │   └── pre-view-app
+│   │       ├── public
+│   │       │   └── favicon.ico
+│   │       ├── src
+│   │       │   ├── app
+│   │       │   │   ├── app.component.html
+│   │       │   │   ├── app.component.scss
+│   │       │   │   ├── app.component.ts
+│   │       │   │   ├── app.config.ts
+│   │       │   │   └── app.routes.ts
+│   │       │   ├── index.html
+│   │       │   ├── main.ts
+│   │       │   └── styles.scss
+│   │       ├── tsconfig.app.json
+│   │       └── tsconfig.spec.json
+│   ├── README.md
+│   └── tsconfig.json
+└── README.md
+
+13 directories, 31 files
