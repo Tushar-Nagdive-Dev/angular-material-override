@@ -1,0 +1,11 @@
+// projects/coreux/src/lib/themes/neumorphism.scss
+$neu-bg: #e0e0e0;
+$neu-radius: 12px;
+$neu-shadow-light: -6px -6px 12px #ffffff;
+$neu-shadow-dark: 6px 6px 12px #c8c8c8;
+
+@mixin neu-theme {
+  background-color: $neu-bg;
+  border-radius: $neu-radius;
+  box-shadow: $neu-shadow-light, $neu-shadow-dark;
+}

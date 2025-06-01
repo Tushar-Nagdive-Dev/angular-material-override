@@ -1,0 +1,11 @@
+// projects/coreux/src/lib/themes/minimal-zen.scss
+$zen-bg: #f4f4f4;
+$zen-radius: 12px;
+$zen-shadow: inset 6px 6px 12px #dcdcdc;
+
+@mixin zen-theme {
+  background-color: $zen-bg;
+  box-shadow: $zen-shadow;
+  border-radius: $zen-radius;
+  border: 1px solid #e0e0e0;
+}

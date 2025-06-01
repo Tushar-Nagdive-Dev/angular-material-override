@@ -1,18 +1,23 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
-import { CoreUxInputComponent } from 'coreux';
+import { CoreUxInputComponent, ThemeService } from 'coreux';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [
-    RouterOutlet,
     CoreUxInputComponent
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pre-view-app';
-  control = new FormControl('');
+
+  constructor(public themeService: ThemeService) {}
+
+  nameControl: FormControl = new FormControl('', []);
+
+  switchTheme(theme: string) {
+    this.themeService.setTheme(theme);
+  }
 }
