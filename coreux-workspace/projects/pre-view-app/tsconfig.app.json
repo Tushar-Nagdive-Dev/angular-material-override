@@ -4,7 +4,10 @@
     "outDir": "../../out-tsc/app",
     "types": [],
     "paths": {
-      "coreux": ["../../dist/coreux"]   // ✅ Tells TypeScript to use built library
+      "coreux": [
+        "../../dist/coreux",
+        "../coreux/src/public-api.ts"
+      ]
     }
   },
   "files": [

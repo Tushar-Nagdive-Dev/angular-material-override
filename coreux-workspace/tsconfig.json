@@ -5,7 +5,8 @@
   "compilerOptions": {
     "paths": {
       "coreux": [
-        "./dist/coreux"
+        "./dist/coreux",
+        "./projects/coreux/src/public-api.ts"
       ]
     },
     "outDir": "./dist/out-tsc",
